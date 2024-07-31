@@ -14,15 +14,13 @@ struct ProfilePage: View {
             Color("ColorSet")
                 .ignoresSafeArea()
             
-            Image("BackGround")
-                .resizable()
-                .scaledToFit()
+
             
             VStack(alignment: .leading) { // Set VStack alignment to .top
                 
                 HStack {
                     Text("Mason") // Changed to "Mason" for demonstration
-                        .font(.custom("Bungee Shade", size: 30))
+                        .font(Font.custom("GroovyBeach-Extrude", size: 38))
                         .fontWeight(.heavy)
                         .foregroundColor(Color("AccentColor"))
                 }

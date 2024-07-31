@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDA_A-D3qwrWYH_vw46Ua7jfZWiJ4_hGus</string>
+	<key>GCM_SENDER_ID</key>
+	<string>387436325214</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>masongill.Caravan</string>
+	<key>PROJECT_ID</key>
+	<string>caravan-730d3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>caravan-730d3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:387436325214:ios:a0f4bf2b54153f738707cf</string>
+</dict>
+</plist>

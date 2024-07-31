@@ -7,29 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE57FA772C594042003E397B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE57FA762C594032003E397B /* LocationManager.swift */; };
+		CE57FA7B2C5EACCD003E397B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE57FA7A2C5EACCD003E397B /* GoogleService-Info.plist */; };
+		CE57FA7E2C5EAD6B003E397B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE57FA7D2C5EAD6B003E397B /* FirebaseAuth */; };
+		CE57FA802C5EAD6B003E397B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE57FA7F2C5EAD6B003E397B /* FirebaseDatabase */; };
+		CE57FA832C61A551003E397B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CE57FA822C61A551003E397B /* FirebaseDatabase */; };
+		CE5B6B3E2C6984FA00F8D32D /* LocationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6B3D2C6984EB00F8D32D /* LocationApi.swift */; };
 		CEF5B6F82B2CF59F0045DA79 /* CaravanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5B6F72B2CF59F0045DA79 /* CaravanApp.swift */; };
 		CEF5B6FA2B2CF59F0045DA79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5B6F92B2CF59F0045DA79 /* ContentView.swift */; };
 		CEF5B6FC2B2CF59F0045DA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF5B6FB2B2CF59F0045DA79 /* Assets.xcassets */; };
 		CEF5B6FF2B2CF5A00045DA79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF5B6FE2B2CF5A00045DA79 /* Preview Assets.xcassets */; };
-		CEF5B7082B2D1EFF0045DA79 /* Bungee_Shade in Resources */ = {isa = PBXBuildFile; fileRef = CEF5B7072B2D1EFF0045DA79 /* Bungee_Shade */; };
 		CEF5B70E2B2D261D0045DA79 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5B70D2B2D261D0045DA79 /* ProfilePage.swift */; };
-		CEF5B7102B2FA51F0045DA79 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5B70F2B2FA51F0045DA79 /* UserLocation.swift */; };
 		CEF5B7162B2FD9600045DA79 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5B7152B2FD9600045DA79 /* ProfileData.swift */; };
+		CEFBB3A72BB6630600938333 /* Groovy Beach Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFBB3A32BB6630600938333 /* Groovy Beach Regular.ttf */; };
+		CEFBB3A82BB6630600938333 /* Readme!.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEFBB3A42BB6630600938333 /* Readme!.txt */; };
+		CEFBB3A92BB667B500938333 /* GroovyBeachExtrude.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEFBB3A22BB6630600938333 /* GroovyBeachExtrude.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4CDDC82B72994500BFFC66 /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BungeeShade-Regular.ttf"; path = "../../../Branding/Bungee_Shade/BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
+		CE57FA762C594032003E397B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CE57FA7A2C5EACCD003E397B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE5B6B3D2C6984EB00F8D32D /* LocationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationApi.swift; sourceTree = "<group>"; };
 		CEF5B6F42B2CF59F0045DA79 /* Caravan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caravan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF5B6F72B2CF59F0045DA79 /* CaravanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaravanApp.swift; sourceTree = "<group>"; };
 		CEF5B6F92B2CF59F0045DA79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEF5B6FB2B2CF59F0045DA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF5B6FE2B2CF5A00045DA79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CEF5B7072B2D1EFF0045DA79 /* Bungee_Shade */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bungee_Shade; sourceTree = "<group>"; };
 		CEF5B70C2B2D21DC0045DA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CEF5B70D2B2D261D0045DA79 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
-		CEF5B70F2B2FA51F0045DA79 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
-		CEF5B7132B2FD88D0045DA79 /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
-		CEF5B7142B2FD8950045DA79 /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BungeeShade-Regular.ttf"; path = "../../../Branding/Bungee_Shade/BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
 		CEF5B7152B2FD9600045DA79 /* ProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		CEFBB3A22BB6630600938333 /* GroovyBeachExtrude.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GroovyBeachExtrude.ttf; sourceTree = "<group>"; };
+		CEFBB3A32BB6630600938333 /* Groovy Beach Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Groovy Beach Regular.ttf"; sourceTree = "<group>"; };
+		CEFBB3A42BB6630600938333 /* Readme!.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Readme!.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE57FA832C61A551003E397B /* FirebaseDatabase in Frameworks */,
+				CE57FA802C5EAD6B003E397B /* FirebaseDatabase in Frameworks */,
+				CE57FA7E2C5EAD6B003E397B /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +61,7 @@
 			children = (
 				CEF5B6F62B2CF59F0045DA79 /* Caravan */,
 				CEF5B6F52B2CF59F0045DA79 /* Products */,
+				CE57FA7A2C5EACCD003E397B /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +76,8 @@
 		CEF5B6F62B2CF59F0045DA79 /* Caravan */ = {
 			isa = PBXGroup;
 			children = (
+				CE5B6B3D2C6984EB00F8D32D /* LocationApi.swift */,
+				CE57FA762C594032003E397B /* LocationManager.swift */,
 				CEF5B7122B2FD87B0045DA79 /* AssetFiles */,
 				CEF5B7112B2FD85F0045DA79 /* UserData */,
 				CEF5B70C2B2D21DC0045DA79 /* Info.plist */,
@@ -70,7 +86,6 @@
 				CEF5B6F92B2CF59F0045DA79 /* ContentView.swift */,
 				CEF5B6FB2B2CF59F0045DA79 /* Assets.xcassets */,
 				CEF5B6FD2B2CF5A00045DA79 /* Preview Content */,
-				CEF5B70F2B2FA51F0045DA79 /* UserLocation.swift */,
 			);
 			path = Caravan;
 			sourceTree = "<group>";
@@ -78,7 +93,6 @@
 		CEF5B6FD2B2CF5A00045DA79 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CEF5B7072B2D1EFF0045DA79 /* Bungee_Shade */,
 				CEF5B6FE2B2CF5A00045DA79 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -95,10 +109,20 @@
 		CEF5B7122B2FD87B0045DA79 /* AssetFiles */ = {
 			isa = PBXGroup;
 			children = (
-				CEF5B7142B2FD8950045DA79 /* BungeeShade-Regular.ttf */,
-				CEF5B7132B2FD88D0045DA79 /* BungeeShade-Regular.ttf */,
+				CEFBB3A52BB6630600938333 /* groovy_beach */,
+				CE4CDDC82B72994500BFFC66 /* BungeeShade-Regular.ttf */,
 			);
 			path = AssetFiles;
+			sourceTree = "<group>";
+		};
+		CEFBB3A52BB6630600938333 /* groovy_beach */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBB3A22BB6630600938333 /* GroovyBeachExtrude.ttf */,
+				CEFBB3A32BB6630600938333 /* Groovy Beach Regular.ttf */,
+				CEFBB3A42BB6630600938333 /* Readme!.txt */,
+			);
+			path = groovy_beach;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +169,9 @@
 				Base,
 			);
 			mainGroup = CEF5B6EB2B2CF59F0045DA79;
+			packageReferences = (
+				CE57FA812C61A551003E397B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CEF5B6F52B2CF59F0045DA79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,9 +186,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFBB3A92BB667B500938333 /* GroovyBeachExtrude.ttf in Resources */,
+				CEFBB3A82BB6630600938333 /* Readme!.txt in Resources */,
 				CEF5B6FF2B2CF5A00045DA79 /* Preview Assets.xcassets in Resources */,
+				CEFBB3A72BB6630600938333 /* Groovy Beach Regular.ttf in Resources */,
 				CEF5B6FC2B2CF59F0045DA79 /* Assets.xcassets in Resources */,
-				CEF5B7082B2D1EFF0045DA79 /* Bungee_Shade in Resources */,
+				CE57FA7B2C5EACCD003E397B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,8 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF5B70E2B2D261D0045DA79 /* ProfilePage.swift in Sources */,
-				CEF5B7102B2FA51F0045DA79 /* UserLocation.swift in Sources */,
 				CEF5B6FA2B2CF59F0045DA79 /* ContentView.swift in Sources */,
+				CE57FA772C594042003E397B /* LocationManager.swift in Sources */,
+				CE5B6B3E2C6984FA00F8D32D /* LocationApi.swift in Sources */,
 				CEF5B7162B2FD9600045DA79 /* ProfileData.swift in Sources */,
 				CEF5B6F82B2CF59F0045DA79 /* CaravanApp.swift in Sources */,
 			);
@@ -314,17 +345,20 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Caravan/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow us to use location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Must Use location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = masongill.Caravan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -345,17 +379,20 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Caravan/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow us to use location.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Must Use location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = masongill.Caravan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -386,6 +423,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE57FA7C2C5EAD6B003E397B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		CE57FA812C61A551003E397B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE57FA7D2C5EAD6B003E397B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE57FA7C2C5EAD6B003E397B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE57FA7F2C5EAD6B003E397B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE57FA7C2C5EAD6B003E397B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CE57FA822C61A551003E397B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE57FA812C61A551003E397B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEF5B6EC2B2CF59F0045DA79 /* Project object */;
 }
